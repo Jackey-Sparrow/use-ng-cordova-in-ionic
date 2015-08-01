@@ -25,7 +25,9 @@ use ngCordova in ionic
     7 运行工程( 需要ios系统才可以): ionic emulate ios
     
 ```
-- 3 进入你的工程目录安装ngCordova
+
+-3 进入你的工程目录安装ngCordova
+
 ```bash
 bower install ngCordova
 ```
