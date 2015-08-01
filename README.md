@@ -36,18 +36,19 @@ bower install ngCordova
 cordova plugin add https://github.com/EddyVerbruggen/cordova-plugin-actionsheet.git
 ```
 - 5 代码部分
---5.1 把ng-cordova.js添加在index.html
+- 
+  **5.1** 把ng-cordova.js添加在index.html
 ```html
  <script src="lib/ionic/js/ionic.bundle.js"></script>
  <script src="lib/ngCordova/dist/ng-cordova.js"></script>
  <!-- cordova script (this will be a 404 during development) -->
  <script src="cordova.js"></script>
 ```
---5.2 html代码
+  **5.2** html代码
 ```html
 <button data-ng-click="testDeleteSheet()">test actionsheet</button>
 ```
---5.3 js代码
+  **5.3** js代码
 ```js
 $scope.testDeleteSheet = function () {
         var options = {
@@ -57,7 +58,7 @@ $scope.testDeleteSheet = function () {
         window.plugins.actionsheet.show(options);
       }
 ```
---5.4 手动添加config.xml以下代码
+  **5.4** 手动添加config.xml以下代码
 ```xml
 <feature name="ActionSheet">
     <param name="ios-package" value="ActionSheet" />
