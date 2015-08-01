@@ -9,14 +9,21 @@ use ngCordova in ionic
 
 - 1 以使用ActionSheet为例子，虽然ionic已经有类似的directive，但是试一下ngcordova的也不防
 - 2 download ionic seed 熟悉使用nodejs的朋友，可以使用nodejs工具去下载
-  ```bash
+  ```
     1 sudo npm install -g cordova ionic
+    
     2 新建工程目录，在cmd命令下进入到该目录。
+    
     3 下载工程：ionic start myApp tabs
+    
     4 cd myApp
+    
     5 下载iOS的platform ： ionic platform add ios
+    
     6 build ios: ionic build ios
+    
     7 运行工程( 需要ios系统才可以): ionic emulate ios
+    
 ```
 - 3 进入你的工程目录安装ngCordova
 ```bash
