@@ -71,6 +71,10 @@ ionic build ios
 ionic emulate ios
 ```
 
+# plugins
+
+- [Camera](https://github.com/Jackey-Sparrow/use-ng-cordova-in-ionic/blob/master/Camera.md)
+
 #License
 
 MIT
