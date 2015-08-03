@@ -75,6 +75,28 @@ ionic emulate ios
 
 - [Camera](https://github.com/Jackey-Sparrow/use-ng-cordova-in-ionic/blob/master/Camera.md)
 
+
+# use ionic view
+
+- register your account [ionicApp](https://apps.ionic.io/apps)
+- use cmd to your project directory
+```bash
+ionic login
+```
+enter your userName and password
+
+then
+
+```
+ionic upload
+```
+
+refresh the [ionicApp](https://apps.ionic.io/apps) and you will see you project there
+
+- use your phone to download the 'ionicView' app, login in and view the app
+
+
+
 #License
 
 MIT
